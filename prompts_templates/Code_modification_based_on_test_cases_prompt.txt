@@ -1,0 +1,16 @@
+Code:[
+{Code Replacement Flag}
+]
+
+Test Cases: [
+{Test Cases Replacement Flag}
+]
+
+Instructions: Modify code based on Test Cases for the three files in the following format:
+index.html:
+...
+style.css:
+...
+script.js:
+...
+

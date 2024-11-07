@@ -1,0 +1,60 @@
+Feature: [Title (one line describing the feature or story)]
+
+#1. Description of the feature or narrative of the story
+
+Narrative:
+As a [role]
+I want [feature: something, requirement]
+So that [benefit: achieve some business goal]
+
+#2. The background is executed once before each scenario
+
+Background:
+Given [some condition]
+And [one more thing]
+
+#3. Acceptance Criteria: (presented as Scenarios)
+
+Scenario 1: Title
+Given [context]
+And [some more context]
+When [event]
+Then [outcome]
+And [another outcome]...
+For instance,
+Scenario 2: ...
+
+#4. Templates with placeholders require a table.
+
+Scenario Outline:
+Given I have <something>
+And I also have <number> <thing>
+Examples:
+| something | number | thing |
+| … | … | … |
+| … | … | … |
+
+Feature: Adding-Removing-items
+As a store owner,
+I want to give a discount as customers add more items to their basket
+So that I can encourage the customers to buy more items
+
+Scenario Outline: Add and Removing items from the basket
+Given that the discount rate is <discount-rate>
+And the minimum discountable amount <min-amount>
+And a customer logs into the System
+When adding and removing items from the basket
+| Item | Price|
+| Tea Shirt | $100 |
+|Sunglasses | $135 |
+| Cookies | $126 |
+|Sunglasses | $600 |
+| Cookies | -$126|
+Then the totalshould be <total>
+And the discount should be <discount>
+Examples:
+| discount-rate | min-amount | total | discount |
+| %10 | $200 | $835 | $83.5 |
+
+Feature：{Replacement Flag}
+As a

@@ -1,0 +1,8 @@
+Instructions: Please generate Gherkin based on the natural language below.
+
+Natural Language:"""
+{NL Replacement Flag}
+"""
+
+Gherkin:
+Feature:{Feature Replacement Flag}

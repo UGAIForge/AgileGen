@@ -1,0 +1,23 @@
+Instructions: Generate a visual description for the Page templates, following the principles:
+
+1.Unity has to do with all elements on a page visually or conceptually appearing to belong together.
+
+2.Gestalt, in visual design, helps users perceive the overall design as opposed to individual elements.
+
+3.Space is “defined when something is placed in it”, according to Alex White in his book, The Elements of Graphic Design. Incorporating space into a design helps reduce noise, increase readability, and/or create illusion. White space is an important part of your layout strategy.
+
+4.Hierarchy shows the difference in significance between items. Designers often create hierarchies through different font sizes, colors, and placement on the page. Usually, items at the top are perceived as most important.
+
+5.Balance creates the perception that there is equal distribution. This does not always imply that there is symmetry.
+
+6.Contrast focuses on making items stand out by emphasizing differences in size, color, direction, and other characteristics.
+
+7.Scale identifies a range of sizes; it creates interest and depth by demonstrating how each item relates to each other based on size.
+
+8.Dominance focuses on having one element as the focal point and others being subordinate. This is often done through scaling and contrasting based on size, color, position, shape, etc.
+
+Page templates: [
+{Replacement Flag}
+]
+
+Visual Description:

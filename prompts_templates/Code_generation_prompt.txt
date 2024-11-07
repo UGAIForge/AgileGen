@@ -1,0 +1,30 @@
+Page templates:[
+{Design_page_template Replacement Flag}
+]
+Visual Description: [
+{Visual_design_template Replacement Flag}
+]
+Instructions: Combining Scenarios, Page templates and visual descriptions to generate simple web code (include .html, .css, .js) for the task without any note.
+There is no back-end for this feature, so please use the front-end code to implement the back-end functionality involved.
+Gherkin:[
+{Gherkin_result Replacement Flag}
+]
+Task:{task Replacement Flag}
+Please generate the codes for the three files in <Code> without any note:
+index.html:
+```html
+<Code>
+```
+end index.html
+
+style.css:
+```css
+<Code>
+```
+end style.css
+
+script.js:
+```javascript
+<Code>
+```
+end script.js

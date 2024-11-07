@@ -1,0 +1,6 @@
+Instruction: Generate concise web system page templates for scenario description without any code. And describe sitemaps.
+Scene description:[
+{Replacement Flag}
+]
+Note: Please use only one web page to complete the all Scene without HomePage.
+Page templates:

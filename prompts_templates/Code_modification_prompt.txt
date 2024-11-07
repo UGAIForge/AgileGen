@@ -1,0 +1,23 @@
+Code:
+{Code Replacement Flag}
+Instructions:
+{Instructions Replacement Flag}
+
+Please follow the instructions to modify the code function and format the output without any note:
+index.html:
+```html
+<Code>
+```
+end index.html
+
+style.css:
+```css
+<Code>
+```
+end style.css
+
+script.js:
+```javascript
+<Code>
+```
+end script.js

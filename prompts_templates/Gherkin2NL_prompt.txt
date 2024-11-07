@@ -1,0 +1,11 @@
+Scenarios: [
+{Replacement Flag}
+]
+
+
+Instructions: Generate Natural Language that explains the every scenario from the Scenarios List without any note.
+Scenario 1:
+Scenario 2:
+Scenario 3:
+Scenario 4:
+...

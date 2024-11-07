@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strategic Alliance Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Game Logo</div>
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">Alliances</a>
+            <a href="#">Territories</a>
+            <a href="#">Resources</a>
+            <a href="#">Profile</a>
+            <a href="#">Logout</a>
+        </nav>
+    </header>
+    <main>
+        <section class="alliance-management">
+            <h2>Alliance Management Section</h2>
+            <div class="create-alliance">
+                <h3>Create an Alliance</h3>
+                <form id="create-alliance-form">
+                    <input type="text" id="alliance-name" placeholder="Alliance Name" required>
+                    <textarea id="alliance-description" placeholder="Description" required></textarea>
+                    <button type="submit">Create</button>
+                </form>
+                <div id="create-alliance-status"></div>
+            </div>
+            <div class="invite-players">
+                <h3>Invite Players</h3>
+                <form id="invite-players-form">
+                    <input type="text" id="player-username" placeholder="Player Username" required>
+                    <button type="submit">Invite</button>
+                </form>
+                <div id="invite-players-status"></div>
+            </div>
+        </section>
+        <section class="territory-management">
+            <h2>Territory Management Section</h2>
+            <div class="launch-attack">
+                <h3>Launch an Attack</h3>
+                <form id="launch-attack-form">
+                    <select id="target-territory">
+                        <option value="territory1">Territory 1</option>
+                        <option value="territory2">Territory 2</option>
+                    </select>
+                    <input type="number" id="allocate-troops" placeholder="Allocate Troops" required>
+                    <button type="submit">Launch Attack</button>
+                </form>
+                <div id="launch-attack-status"></div>
+            </div>
+            <div class="defend-territory">
+                <h3>Defend Territory</h3>
+                <div id="defend-notification">No incoming attacks.</div>
+                <div id="battle-status"></div>
+            </div>
+        </section>
+        <section class="resource-management">
+            <h2>Resource Management Section</h2>
+            <div class="allocate-resources">
+                <h3>Allocate Resources for an Attack</h3>
+                <form id="allocate-resources-form">
+                    <div>Initial Resources: <span id="initial-resources">5000</span></div>
+                    <input type="number" id="required-resources" placeholder="Required Resources" required>
+                    <button type="submit">Allocate</button>
+                </form>
+                <div id="allocate-resources-status"></div>
+            </div>
+        </section>
+    </main>
+    <aside>
+        <div class="alliance-overview">
+            <h3>Alliance Overview</h3>
+            <div>Members: <span id="alliance-members">0</span></div>
+            <div>Current Resources: <span id="current-resources">0</span></div>
+            <div>Controlled Territories: <span id="controlled-territories">0</span></div>
+        </div>
+        <div class="notifications">
+            <h3>Notifications</h3>
+            <div id="recent-battles">No recent battles.</div>
+            <div id="incoming-attacks">No incoming attacks.</div>
+            <div id="alliance-invitations">No alliance invitations.</div>
+        </div>
+    </aside>
+    <footer>
+        <a href="#">Terms of Service</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Contact Support</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

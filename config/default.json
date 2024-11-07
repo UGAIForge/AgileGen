@@ -1,0 +1,19 @@
+{
+    "logs_dir": "logs/logs.log",
+    "model": "gpt-4o",
+    "temperature": 0.4,
+    "static_dir":"./static",
+    "static_html_dir": "./static/html",
+    "prompt_path": "./prompts_templates",
+    "max_scenarios_number": 10,
+    "init_visible_scenarios_number": 2,
+
+    "stdout_handler_level": "debug",
+    "file_handler_level": "debug",
+    "model_name": "WebCodeGenerator",
+    
+    "max_retry": 1,
+    "similarity_threshold": 0.5,
+    "max_feature_number": 2,
+    "demo_dir": "index/Test/data/demo"
+}

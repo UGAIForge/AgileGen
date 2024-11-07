@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #e8f4f8; /* Light blue background for the body */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #205375; /* Darker blue for header */
+    color: #FFD700; /* Gold text color */
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.navbar a {
+    color: #FFD700; /* Gold text color */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+}
+
+section {
+    flex: 2;
+    margin-right: 20px;
+    background-color: #f0f8ff; /* Very light blue for sections */
+    padding: 10px;
+    border-radius: 8px; /* Rounded corners for sections */
+}
+
+aside {
+    flex: 1;
+    background-color: #f9f9f9; /* Very light gray for the sidebar */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners for the sidebar */
+}
+
+footer {
+    background-color: #205375; /* Darker blue for footer */
+    color: #FFD700; /* Gold text color */
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    color: #FFD700; /* Gold text color */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea, form select, form button {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #28a745; /* Green color for buttons */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #218838; /* Darker green for button hover */
+}
+
+#initial-resources {
+    font-weight: bold;
+}
+
+#allocate-resources-status, #create-alliance-status, #invite-players-status, #launch-attack-status, #battle-status {
+    margin-top: 10px;
+    color: green;
+}
+
+#defend-notification {
+    color: red;
+}
