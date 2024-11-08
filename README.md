@@ -27,7 +27,6 @@ The interaction and collaboration design of AgileGen is divided into two parts.
 ![example](https://github.com/user-attachments/assets/08b7b260-81be-4b0a-8a34-5ae799730e6b)
 
 https://github.com/HarrisClover/AgileGen/assets/33628813/8478c0d1-b511-4cae-8037-0c3f11f7074e
-AgileGen_20241108_15320128_20241108_15374085.mp4
 
 ---
 # 👨‍💻‍Human-AI collaboration process:
